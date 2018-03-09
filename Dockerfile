@@ -3,12 +3,13 @@ MAINTAINER Christian Pfarher "c.pfarher@bys-control.com.ar"
 
 ENV TERM=xterm
 
-# Creo la carpeta de la aplicación
+# Create app folder
 RUN mkdir -p /home/app/krem
 WORKDIR /home/app/krem
 
-# Instalo las gemas
+# Add project folder
 ADD . ./
 RUN chmod +x init.sh
-# Inicializo la aplicacion
+
+# Init app
 CMD ["/home/app/krem/init.sh"]
