@@ -1,0 +1,15 @@
+version: '2'
+
+networks:
+  back-tier:
+    driver: bridge
+  front-tier:
+    driver: bridge
+
+services:
+  krem:
+    build: .
+    networks:
+      - back-tier
+      - front-tier
+

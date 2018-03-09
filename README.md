@@ -19,6 +19,12 @@ Please see the User Manual for more information
 
 
 --------------------------------------------------------
+## Quick start guide DOCKER:
+```
+docker-compose up -d
+docker exec -it krem_1 /bin/bash
+# all commands as in a quick start guide
+```
 
 
 ## Quick start guide
