@@ -1,5 +1,5 @@
 FROM jfloff/alpine-python:2.7-slim
-MAINTAINER Christian Pfarher "c.pfarher@bys-control.com.ar"
+MAINTAINER Christian Pfarher "c.pfarher@gmail.com"
 
 ENV TERM=xterm
 
